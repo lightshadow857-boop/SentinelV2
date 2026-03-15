@@ -1,4 +1,0 @@
-- name: Build .exe
-  run: |
-    pip install pyinstaller colorama
-    pyinstaller --onefile --name Sentinel --uac-admin --console sentinel_scanner.py
